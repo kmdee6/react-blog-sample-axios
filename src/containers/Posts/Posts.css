@@ -1,0 +1,11 @@
+.PostsContainer {
+    display: flex;
+    flex-flow: row;
+    margin: 20px;
+    justify-content: center;
+    border: 1px gray solid;
+    /*For horizontal scrolling*/
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-scrolling: touch;
+}

@@ -1,0 +1,23 @@
+.PostContent {
+    border: 1px gray solid;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px gray;
+}
+
+.PostContent button {
+    margin: 10px;
+    width: 50%;
+    cursor: pointer;
+    padding: 10px;
+    border: transparent 1px solid;
+    background-color: salmon;
+    border-radius: 3px;
+}
+
+.PostContent button:hover,
+.PostContent button:active {
+    background-color: red;
+    color: white;
+}

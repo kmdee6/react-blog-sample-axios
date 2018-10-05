@@ -1,0 +1,11 @@
+.Post {
+    height: 100%;
+    width: 150px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px darkgray;
+    border: 1px solid gray;
+    /*For horizontal scrolling*/
+    flex: 0 0 auto;
+}
