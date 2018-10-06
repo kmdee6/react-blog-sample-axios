@@ -1,3 +1,8 @@
+```java
+The branch blogContainerWithoutAxios contains empty blog posts containers before accessing axios.
+Useful when learning from Maximillian Schwarzmueller.
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
