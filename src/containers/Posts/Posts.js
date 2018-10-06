@@ -7,7 +7,8 @@ const posts = props => {
         <div className="PostsContainer">
             {
                 props.posts.map((post, index) => {
-                    return <Post key={post.title + index} displayPost={() => props.clicked(index)} title={post.title} author={post.author}/>;
+                    const user = props.users.filter(user => user.id === post.id);
+                    return <Post key={post.title + index} displayPost={() => props.clicked(index)} title={post.title} author={user.name}/>;
                 })
             }
         </div>

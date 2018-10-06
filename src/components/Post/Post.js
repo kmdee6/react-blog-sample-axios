@@ -6,7 +6,7 @@ class Post extends Component {
         return(
             <div onClick={this.props.displayPost} className="Post">
                 <h3>{this.props.title}</h3>
-                <p>{this.props.author}</p>
+                <p>{this.props.author == null? 'Author' : this.props.author}</p>
             </div>
         );
     }
